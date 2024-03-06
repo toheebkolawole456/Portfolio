@@ -4,45 +4,61 @@
         <tittle>Aspiring Software Engineer</tittle>
     </head>
     <style>
+        #nav {
+            background-color: lightblue;
+            padding: 16px;
+            text-align: end;
+        }
+
         .menu-item {
             display: inline;
             padding:  10px 14px;
         }
 
         body {
-            background-color: #b1df0b4f;
+            background-color: lightslategray;
         }
 
         h1 {
-            color: blue;
+            color: rgb(55, 202, 170);
+        }
+
+        h3 {
+            text-align: center;
         }
     </style>
     <body>
+        <header>
+            <nav id="nav">
+                <span class="menu-item"><a href="#about">About Me</a></span>
+                <span class="menu-item"><a href="#about">Skills</a></span>
+                <span class="menu-item"><a href="#about">Projects</a></span>
+                <span class="menu-item"><a href="#about">Contact</a></span>
+            </nav>
+        </header>
 
         <h1>Kolawole Toheeb Damilola</h1>
-        <ul style="list-style-type: none;">
-            <li class="menu-item"><a href="#about">About</a></li>
-            <li class="menu-item"><a href="#skills">Skills</a></li>
-            <li class="menu-item"><a href="#projects">Projects</a></li>
-            <li class="menu-item"><a href="#contact">Contact</a></li>
-        </ul>
+        <h2>Aspiring Software Engineer</h2>
         <section id="about">
-            <h2>About Me</h2>
+            <h3 text-align="center">About Me</h3>
             <p>Hey there! I'm <b>Kolawole Toheeb Damilola</b>, a frontend developer who thrives on turning ideas into visually appealing and user-friendly websites. My toolkit includes the essential trio of HTML, CSS, and Git, and I'm passionate about creating seamless online experiences.</p>
             <p> I specialize in crafting clean and structured HTML for content and applying stylish CSS for that pixel-perfect look. My goal is to make websites not only functional but also visually stunning, and version control is not just a tool; it's my compass in the coding journey. Git helps me keep projects organized, collaborative, and always ready for the next big update.</p>
             <p>When I'm not immersed in code, you can find me exploring the latest frontend trends, seeking inspiration from diverse sources, and staying curious about the ever-evolving web development landscape.</p>
             <p>Thanks for stopping by, and I look forward to the possibility of working together to bring your digital vision to life!</p>
         </section>
         <section id="skills">
-            <h2>Skills</h2>
+            <h4>Skills</h4>
             <p>HTML, CSS & Git</p>
         </section>
         <section id="projects">
-            <h2>Projects</h2>
+            <h4>Projects</h4>
         </section>
         <section id="contact">
-            <h2>Contact</h2>
-            <p>07033466538/toheebkolawole456@gmail.com</p>
+            <h4>Contact</h4>
+            <ul>
+                <li>07033466538</li>
+                <li>toheebkolawole456@gmail.com</li>
+            </ul>
         </section>
     </body>
 </html>
