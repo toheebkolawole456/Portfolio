@@ -10,12 +10,12 @@
         }
 
         .menu-item {
-            display: inline;
             padding:  10px 14px;
-            text-align: end;
+            display: inline-flex;
         }
 
-        #nav {
+        .nav {
+            padding: 16px;
             text-align: left;
         }
 
@@ -27,13 +27,19 @@
             text-align: center;
         }
 
+        h4 {
+            font-size: large;
+        }
+
+        .bold {
+            font-size: larger;
+        }
+
     </style>
     <body>
-            
-        <header id="header">
-            <nav id="nav">
-                <h1>Kolawole Toheeb Damilola</h1>
-                <h2>Aspiring Software Engineer</h2>
+        <header id="header">  
+            <nav class="nav">
+                <p><b class="bold">Kolawole Toheeb</b><br>Aspiring Software Engineer</p>
             </nav>
                 <span class="menu-item"><a href="#about">About</a></span>
                 <span class="menu-item"><a href="#skills">Skills</a></span>
@@ -50,17 +56,17 @@
         </section>
         <section id="skills">
             <h4>Skills</h4>
-            <p>HTML, CSS & Git</p>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
         </section>
         <section id="projects">
             <h4>Projects</h4>
         </section>
         <section id="contact">
             <h4>Contact</h4>
-            <ul>
-                <li>07033466538</li>
-                <li>toheebkolawole456@gmail.com</li>
-            </ul>
+            <li>07033466538</li>
+            <li>toheebkolawole456@gmail.com</li>
         </section>
     </body>
 </html>
